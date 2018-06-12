@@ -1,0 +1,9 @@
+n1=input()
+n2=input()
+n1h=n1%60
+n1m=n1/60
+n2h=n2%60
+n2m=n2/60
+p=n1h-n2h
+q=n1m-n2m
+print(str(q)+":"+str(p))
