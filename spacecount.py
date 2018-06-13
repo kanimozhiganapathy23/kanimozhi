@@ -1,5 +1,5 @@
 inp=raw_input()
-count=0
+count=1
 for i in inp:
 	if(i==" "):
 		count=count+1
