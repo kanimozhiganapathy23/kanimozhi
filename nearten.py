@@ -1,0 +1,12 @@
+inp=input()
+inp1=inp%10
+ans=0
+if(1<=inp1<=5):
+	ans=inp-inp1
+	print(ans)
+if(inp1>5):
+	ans1=10-inp1
+	rem=inp+ans1
+	print(rem)
+if(inp%10==0):
+	print(inp)
